@@ -136,6 +136,10 @@ or
 ```Ruby
 pod 'SimpleStoreUI'
 ```
+or
+```Ruby
+pod 'SimpleStoreUI', :git => 'https://github.com/mahmudahsan/SimpleStoreUI'
+```
 
 * In your project add the icons of your in app purchase items. Better use StoreIcons.assets to add icons. You will find this StoreIcons.assets in the demo folder
 
