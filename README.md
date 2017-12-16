@@ -116,6 +116,13 @@ extension ViewController : StoreManagerDelegate {
 <li>purchaseSuccess() with productId will be called every time user purchase any non-consumable item or restore any of them. It's your job to define how to give the feature to your user based on productId.</li>
 </ul>
 
+
+### Step 3: To know whether user purchase any item or not use the following function
+
+```swift
+StoreManager.shared.isProductPurchased(Constants.kIAPRemoveAds)
+```
+
 ## Usage in an iOS application
 
 Either
