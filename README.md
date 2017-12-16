@@ -1,4 +1,4 @@
-# SimpleStore
+# SimpleStoreUI
 <p align="center">
     <a href="https://cocoapods.org/pods/SimpleStoreUI">
         <img src="https://img.shields.io/cocoapods/p/SimpleStore.svg?style=flat" alt="CocoaPods" />
