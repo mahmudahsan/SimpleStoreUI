@@ -146,4 +146,4 @@ pod 'SimpleStoreUI', :git => 'https://github.com/mahmudahsan/SimpleStoreUI'
 
 ## Questions or feedback?
 
-Feel free to [open an issue](https://github.com/mahmudahsan/SimpleStore/issues/new), or find me [@mahmudahsan on Twitter](https://twitter.com/mahmudahsan).
+Feel free to [open an issue](https://github.com/mahmudahsan/SimpleStoreUI/issues/new), or find me [@mahmudahsan on Twitter](https://twitter.com/mahmudahsan).
