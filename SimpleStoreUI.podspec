@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name         = "SimpleStore"
+  s.name         = "SimpleStoreUI"
   s.version      = "1.0"
   s.summary      = "A table view based view controller to show in app purchase items and functionality quickly."
   s.description  = <<-DESC
@@ -15,7 +15,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "9.0"
   s.source       = { :git => "https://github.com/mahmudahsan/SimpleStore.git", :tag => s.version.to_s }
   s.source_files = "SimpleStore/Sources/**/*.{swift}"
-  s.resources    = ['SimpleStore/Sources/**/*.{storyboard}']
+  s.resources    = ['SimpleStore/Sources/**/*.{xib}']
   s.frameworks   = "Foundation"
 
   s.dependency 'MBProgressHUD'
