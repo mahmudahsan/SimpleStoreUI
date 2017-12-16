@@ -111,7 +111,7 @@ extension ViewController : StoreManagerDelegate {
 }
 ```
 <ul>
-<li>showStore() function demonstarte how to show the UI. </li>
+<li>showStore() function demonstrate how to show the UI. </li>
 <li>StoreManagerDelegate has 3 functions. You can modify all of this</li>
 <li>purchaseSuccess() with productId will be called every time user purchase any non-consumable item or restore any of them. It's your job to define how to give the feature to your user based on productId.</li>
 </ul>
