@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		299B1B9AE17DE9641FA83FD8 /* Pods_SimpleStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9BE7A163FD3EC215E2F2F8C /* Pods_SimpleStore.framework */; };
+		512578AA1FE53DC300E21467 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512578A91FE53DC300E21467 /* AppDelegate.swift */; };
+		512578AC1FE53DC300E21467 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512578AB1FE53DC300E21467 /* ViewController.swift */; };
+		512578AF1FE53DC300E21467 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 512578AD1FE53DC300E21467 /* Main.storyboard */; };
+		512578B11FE53DC300E21467 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 512578B01FE53DC300E21467 /* Assets.xcassets */; };
+		512578B41FE53DC300E21467 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 512578B21FE53DC300E21467 /* LaunchScreen.storyboard */; };
+		512578C11FE53E9800E21467 /* StoreTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512578BD1FE53E9800E21467 /* StoreTableViewCell.xib */; };
+		512578C21FE53E9800E21467 /* StoreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512578BE1FE53E9800E21467 /* StoreTableViewCell.swift */; };
+		512578C31FE53E9800E21467 /* StoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512578BF1FE53E9800E21467 /* StoreViewController.swift */; };
+		512578C41FE53E9800E21467 /* StoreViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 512578C01FE53E9800E21467 /* StoreViewController.xib */; };
+		512578C61FE53EA200E21467 /* StoreIcons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 512578C51FE53EA200E21467 /* StoreIcons.xcassets */; };
+		512578C81FE5404300E21467 /* StoreManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512578C71FE5404300E21467 /* StoreManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		512578A61FE53DC300E21467 /* SimpleStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		512578A91FE53DC300E21467 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		512578AB1FE53DC300E21467 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		512578AE1FE53DC300E21467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		512578B01FE53DC300E21467 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		512578B31FE53DC300E21467 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		512578B51FE53DC300E21467 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		512578BD1FE53E9800E21467 /* StoreTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoreTableViewCell.xib; sourceTree = "<group>"; };
+		512578BE1FE53E9800E21467 /* StoreTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreTableViewCell.swift; sourceTree = "<group>"; };
+		512578BF1FE53E9800E21467 /* StoreViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreViewController.swift; sourceTree = "<group>"; };
+		512578C01FE53E9800E21467 /* StoreViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = StoreViewController.xib; sourceTree = "<group>"; };
+		512578C51FE53EA200E21467 /* StoreIcons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = StoreIcons.xcassets; sourceTree = "<group>"; };
+		512578C71FE5404300E21467 /* StoreManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoreManager.swift; sourceTree = "<group>"; };
+		5B4C08E8E226C6E148074801 /* Pods-SimpleStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleStore.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleStore/Pods-SimpleStore.debug.xcconfig"; sourceTree = "<group>"; };
+		821B2F2DF307DC7C908FA285 /* Pods-SimpleStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SimpleStore.release.xcconfig"; path = "Pods/Target Support Files/Pods-SimpleStore/Pods-SimpleStore.release.xcconfig"; sourceTree = "<group>"; };
+		C9BE7A163FD3EC215E2F2F8C /* Pods_SimpleStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SimpleStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		512578A31FE53DC300E21467 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				299B1B9AE17DE9641FA83FD8 /* Pods_SimpleStore.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5125789D1FE53DC300E21467 = {
+			isa = PBXGroup;
+			children = (
+				512578A81FE53DC300E21467 /* SimpleStore */,
+				512578A71FE53DC300E21467 /* Products */,
+				DC898952A60D169F143FAE14 /* Pods */,
+				B110375EB7BFB2780B2891D0 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		512578A71FE53DC300E21467 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				512578A61FE53DC300E21467 /* SimpleStore.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		512578A81FE53DC300E21467 /* SimpleStore */ = {
+			isa = PBXGroup;
+			children = (
+				512578BB1FE53E1400E21467 /* Sources */,
+				512578BC1FE53E4300E21467 /* Demo */,
+				512578B01FE53DC300E21467 /* Assets.xcassets */,
+				512578B21FE53DC300E21467 /* LaunchScreen.storyboard */,
+				512578B51FE53DC300E21467 /* Info.plist */,
+			);
+			path = SimpleStore;
+			sourceTree = "<group>";
+		};
+		512578BB1FE53E1400E21467 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				512578BF1FE53E9800E21467 /* StoreViewController.swift */,
+				512578C71FE5404300E21467 /* StoreManager.swift */,
+				512578C01FE53E9800E21467 /* StoreViewController.xib */,
+				512578BE1FE53E9800E21467 /* StoreTableViewCell.swift */,
+				512578BD1FE53E9800E21467 /* StoreTableViewCell.xib */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		512578BC1FE53E4300E21467 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				512578A91FE53DC300E21467 /* AppDelegate.swift */,
+				512578AB1FE53DC300E21467 /* ViewController.swift */,
+				512578AD1FE53DC300E21467 /* Main.storyboard */,
+				512578C51FE53EA200E21467 /* StoreIcons.xcassets */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		B110375EB7BFB2780B2891D0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9BE7A163FD3EC215E2F2F8C /* Pods_SimpleStore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DC898952A60D169F143FAE14 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5B4C08E8E226C6E148074801 /* Pods-SimpleStore.debug.xcconfig */,
+				821B2F2DF307DC7C908FA285 /* Pods-SimpleStore.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		512578A51FE53DC300E21467 /* SimpleStore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 512578B81FE53DC300E21467 /* Build configuration list for PBXNativeTarget "SimpleStore" */;
+			buildPhases = (
+				CAB0CE7E72DB9B2A5D0F6B39 /* [CP] Check Pods Manifest.lock */,
+				512578A21FE53DC300E21467 /* Sources */,
+				512578A31FE53DC300E21467 /* Frameworks */,
+				512578A41FE53DC300E21467 /* Resources */,
+				9DEB3299C0479F7E615CBA22 /* [CP] Embed Pods Frameworks */,
+				1046C3AE4A5B0A47E35BACFC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleStore;
+			productName = SimpleStore;
+			productReference = 512578A61FE53DC300E21467 /* SimpleStore.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5125789E1FE53DC300E21467 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = iThinkdiff;
+				TargetAttributes = {
+					512578A51FE53DC300E21467 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 512578A11FE53DC300E21467 /* Build configuration list for PBXProject "SimpleStore" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5125789D1FE53DC300E21467;
+			productRefGroup = 512578A71FE53DC300E21467 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				512578A51FE53DC300E21467 /* SimpleStore */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		512578A41FE53DC300E21467 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512578C61FE53EA200E21467 /* StoreIcons.xcassets in Resources */,
+				512578B41FE53DC300E21467 /* LaunchScreen.storyboard in Resources */,
+				512578B11FE53DC300E21467 /* Assets.xcassets in Resources */,
+				512578AF1FE53DC300E21467 /* Main.storyboard in Resources */,
+				512578C41FE53E9800E21467 /* StoreViewController.xib in Resources */,
+				512578C11FE53E9800E21467 /* StoreTableViewCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1046C3AE4A5B0A47E35BACFC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleStore/Pods-SimpleStore-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DEB3299C0479F7E615CBA22 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SimpleStore/Pods-SimpleStore-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/MBProgressHUD/MBProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyStoreKit/SwiftyStoreKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MBProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyStoreKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SimpleStore/Pods-SimpleStore-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAB0CE7E72DB9B2A5D0F6B39 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SimpleStore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		512578A21FE53DC300E21467 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				512578C31FE53E9800E21467 /* StoreViewController.swift in Sources */,
+				512578C21FE53E9800E21467 /* StoreTableViewCell.swift in Sources */,
+				512578C81FE5404300E21467 /* StoreManager.swift in Sources */,
+				512578AC1FE53DC300E21467 /* ViewController.swift in Sources */,
+				512578AA1FE53DC300E21467 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		512578AD1FE53DC300E21467 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				512578AE1FE53DC300E21467 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		512578B21FE53DC300E21467 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				512578B31FE53DC300E21467 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		512578B61FE53DC300E21467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		512578B71FE53DC300E21467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		512578B91FE53DC300E21467 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5B4C08E8E226C6E148074801 /* Pods-SimpleStore.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4J88UVN9G;
+				INFOPLIST_FILE = SimpleStore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.ithinkdiff.SimpleStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		512578BA1FE53DC300E21467 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 821B2F2DF307DC7C908FA285 /* Pods-SimpleStore.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Z4J88UVN9G;
+				INFOPLIST_FILE = SimpleStore/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.ithinkdiff.SimpleStore;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		512578A11FE53DC300E21467 /* Build configuration list for PBXProject "SimpleStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512578B61FE53DC300E21467 /* Debug */,
+				512578B71FE53DC300E21467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		512578B81FE53DC300E21467 /* Build configuration list for PBXNativeTarget "SimpleStore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				512578B91FE53DC300E21467 /* Debug */,
+				512578BA1FE53DC300E21467 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5125789E1FE53DC300E21467 /* Project object */;
+}
