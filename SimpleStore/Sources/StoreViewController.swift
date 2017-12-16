@@ -31,7 +31,8 @@ public class StoreViewController: UIViewController, UITableViewDelegate, UITable
     override public func viewDidLoad() {
         super.viewDidLoad()
      
-        tableView.register(UINib.init(nibName: "StoreTableViewCell", bundle: nil), forCellReuseIdentifier: "cell")
+        let bundle  = Bundle(for: StoreViewController.self)
+        tableView.register(UINib.init(nibName: "StoreTableViewCell", bundle: bundle), forCellReuseIdentifier: "cell")
     }
 
     override public func didReceiveMemoryWarning() {

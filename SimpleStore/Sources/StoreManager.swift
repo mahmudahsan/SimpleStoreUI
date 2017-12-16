@@ -26,11 +26,19 @@ import Foundation
 import SwiftyStoreKit
 
 public struct Product{
-    let name:String
-    let productId: String
-    var price:String
-    var purchased:Bool
-    let image: String
+    public let name:String
+    public let productId: String
+    public var price:String
+    public var purchased:Bool
+    public let image: String
+    
+    public init(name:String, productId: String, price: String, purchased: Bool, image: String){
+        self.name = name
+        self.productId = productId
+        self.price = price
+        self.purchased = purchased
+        self.image = image
+    }
 }
 
 public protocol StoreManagerDelegate{
@@ -40,7 +48,7 @@ public protocol StoreManagerDelegate{
 }
 
 public class StoreManager {
-    static var shared = StoreManager()
+    public static var shared = StoreManager()
     private init(){}
     private let userDefaults:UserDefaults = UserDefaults()
     public var storeManagerDelegate:StoreManagerDelegate?
