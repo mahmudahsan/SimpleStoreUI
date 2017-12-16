@@ -1,11 +1,11 @@
 # SimpleStore
 <p align="center">
-    <a href="https://cocoapods.org/pods/SimpleStore">
+    <a href="https://cocoapods.org/pods/SimpleStoreUI">
         <img src="https://img.shields.io/cocoapods/p/SimpleStore.svg?style=flat" alt="CocoaPods" />
     </a>
     <img src="https://img.shields.io/badge/Swift-4.0-orange.svg" alt="swift 4.0" />
-    <a href="https://cocoapods.org/pods/SimpleStore">
-        <img src="https://img.shields.io/badge/pods-v1.0.0-orange.svg" alt="CocoaPods" />
+    <a href="https://cocoapods.org/pods/SimpleStoreUI">
+        <img src="https://img.shields.io/badge/pods-v1.0-orange.svg" alt="CocoaPods" />
     </a>
     <a href="https://swift.org/package-manager">
         <img src="https://img.shields.io/badge/spm-compatible-brightgreen.svg?style=flat" alt="Swift Package Manager" />
@@ -134,7 +134,7 @@ or
 - Use CocoaPods or the Swift Package manager to include SimpleStore as a dependency in your project.
 
 ```Ruby
-pod 'SimpleStore'
+pod 'SimpleStoreUI'
 ```
 
 * In your project add the icons of your in app purchase items. Better use StoreIcons.assets to add icons. You will find this StoreIcons.assets in the demo folder
