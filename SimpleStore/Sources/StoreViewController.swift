@@ -71,8 +71,19 @@ public class StoreViewController: UIViewController, UITableViewDelegate, UITable
             StoreManager.shared.restoreProducts()
         }
         else {
-            //remove ads
-            StoreManager.shared.purchaseProduct(id: storeItem.productId)
+            if StoreManager.shared.isProductPurchased(storeItem.productId) {
+                showAlert()
+            }
+            else {
+                StoreManager.shared.purchaseProduct(id: storeItem.productId)
+            }
         }
+    }
+    
+    private func showAlert(){
+        let alert = UIAlertController(title: "Purhcased", message: "You already purchased this item", preferredStyle: UIAlertControllerStyle.alert)
+        alert.addAction(UIAlertAction(title: "Ok", style: UIAlertActionStyle.default, handler:{ (ACTION :UIAlertAction!)in
+        }))
+        self.present(alert, animated: true, completion: nil)
     }
 }
