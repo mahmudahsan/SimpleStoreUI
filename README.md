@@ -5,7 +5,7 @@
     </a>
     <img src="https://img.shields.io/badge/Swift-4.0-orange.svg" alt="swift 4.0" />
     <a href="https://cocoapods.org/pods/SimpleStoreUI">
-        <img src="https://img.shields.io/badge/pods-v1.2-orange.svg" alt="CocoaPods" />
+        <img src="https://img.shields.io/badge/pods-v1.2.1-orange.svg" alt="CocoaPods" />
     </a>
     <a href="https://swift.org/package-manager">
         <img src="https://img.shields.io/badge/spm-compatible-brightgreen.svg?style=flat" alt="Swift Package Manager" />
