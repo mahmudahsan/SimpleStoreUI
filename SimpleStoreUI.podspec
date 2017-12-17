@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "SimpleStoreUI"
-  s.version      = "1.2.1"
+  s.version      = "1.2.2"
   s.summary      = "A table view based view controller to show in app purchase items and functionality quickly."
   s.description  = <<-DESC
       A table view based view controller to show in app purchase items and functionality quickly within app based on SwiftStoreKit library..
