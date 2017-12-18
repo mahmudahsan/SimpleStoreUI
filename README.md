@@ -58,6 +58,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 <ul>
 <li>In this example we define only one in app purchase item named iAP_RemoveAd. If you have many in app purchase items, you can define all here or some where else.</>
 <li>Fill StoreManager.shared.storeItems with your in app purchase items. If you don't want to show Restore feature, you can remove the first line. Also you may or may not fill the price argument as it will auto fill later by the Store Manager.</li>
+<li>purchased: false is the default value. When the store load, StoreManager will check and updated price and purchased fields.</li>
 </ul>
 
 ### Step 2: In your main view controller write the following codes
@@ -65,6 +66,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
 ```swift
 import UIKit
 import MBProgressHUD
+import SimpleStoreUI
 
 extension UIViewController {
     //MARK: - Top View Controller
@@ -81,6 +83,7 @@ extension UIViewController {
 
 class ViewController: UIViewController {
     @IBAction func showStore(_ sender: Any) {
+    //Main code to add the Store UI within app
         let bundle  = Bundle(for: StoreViewController.self)
         let storeVC = StoreViewController(nibName: "StoreViewController", bundle: bundle)
         StoreManager.shared.storeManagerDelegate = self
