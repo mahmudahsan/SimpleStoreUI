@@ -55,6 +55,7 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
     StoreManager.shared.loadStoreProducts()
   }
 ```
+
 * In this example we define only one in app purchase item named iAP_RemoveAd. If you have many in app purchase items, you can define all here or some where else.
 * Fill StoreManager.shared.storeItems with your in app purchase items. If you don't want to show Restore feature, you can remove the first line. Also you may or may not fill the price argument as it will auto fill later by the Store Manager.
 * purchased: false is the default value. When the store load, StoreManager will check and updated price and purchased fields.
