@@ -3,7 +3,7 @@
     <a href="https://cocoapods.org/pods/SimpleStoreUI">
         <img src="https://img.shields.io/cocoapods/p/SimpleStore.svg?style=flat" alt="CocoaPods" />
     </a>
-    <img src="https://img.shields.io/badge/Swift-4.0-orange.svg" alt="swift 4.0" />
+    <img src="https://img.shields.io/badge/Swift-5.0-orange.svg" alt="swift 5.0" />
     <a href="https://cocoapods.org/pods/SimpleStoreUI">
         <img src="https://img.shields.io/badge/pods-v1.2.2-orange.svg" alt="CocoaPods" />
     </a>

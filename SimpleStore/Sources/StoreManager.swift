@@ -100,6 +100,20 @@ public class StoreManager {
                 case .cloudServicePermissionDenied: print("Access to cloud service information is not allowed")
                 case .cloudServiceNetworkConnectionFailed: print("Could not connect to the network")
                 case .cloudServiceRevoked: print("User has revoked permission to use this cloud service")
+                case .privacyAcknowledgementRequired:
+                    print("Unknown error. Please contact support")
+                case .unauthorizedRequestData:
+                    print("Unknown error. Please contact support")
+                case .invalidOfferIdentifier:
+                    print("Unknown error. Please contact support")
+                case .invalidSignature:
+                    print("Unknown error. Please contact support")
+                case .missingOfferParams:
+                    print("Unknown error. Please contact support")
+                case .invalidOfferPrice:
+                    print("Unknown error. Please contact support")
+                @unknown default:
+                    print("Unknown error. Please contact support")
                 }
             }
         }
