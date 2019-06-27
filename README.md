@@ -55,11 +55,10 @@ func application(_ application: UIApplication, didFinishLaunchingWithOptions lau
     StoreManager.shared.loadStoreProducts()
   }
 ```
-<ul>
-<li>In this example we define only one in app purchase item named iAP_RemoveAd. If you have many in app purchase items, you can define all here or some where else.</>
-<li>Fill StoreManager.shared.storeItems with your in app purchase items. If you don't want to show Restore feature, you can remove the first line. Also you may or may not fill the price argument as it will auto fill later by the Store Manager.</li>
-<li>purchased: false is the default value. When the store load, StoreManager will check and updated price and purchased fields.</li>
-</ul>
+
+* In this example we define only one in app purchase item named iAP_RemoveAd. If you have many in app purchase items, you can define all here or some where else.
+* Fill StoreManager.shared.storeItems with your in app purchase items. If you don't want to show Restore feature, you can remove the first line. Also you may or may not fill the price argument as it will auto fill later by the Store Manager.
+* purchased: false is the default value. When the store load, StoreManager will check and updated price and purchased fields.
 
 ### Step 2: In your main view controller write the following codes
 
@@ -113,11 +112,10 @@ extension ViewController : StoreManagerDelegate {
     }
 }
 ```
-<ul>
-<li>showStore() function demonstrate how to show the UI. </li>
-<li>StoreManagerDelegate has 3 functions. You can modify all of this</li>
-<li>purchaseSuccess() with productId will be called every time user purchase any non-consumable item or restore any of them. It's your job to define how to give the feature to your user based on productId.</li>
-</ul>
+
+* showStore() function demonstrate how to show the UI.
+* StoreManagerDelegate has 3 functions. You can modify all of this
+* purchaseSuccess() with productId will be called every time user purchase any non-consumable item or restore any of them. It's your job to define how to give the feature to your user based on productId.
 
 
 ### Step 3: To know whether user purchase any item or not use the following function

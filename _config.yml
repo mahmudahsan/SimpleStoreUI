@@ -1,0 +1,3 @@
+theme: jekyll-theme-architect
+title: SimpleStoreUI
+description: A table view based UI to show in app purchase items based on SwiftStoreKit
