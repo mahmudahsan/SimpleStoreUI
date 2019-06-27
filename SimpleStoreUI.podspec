@@ -17,6 +17,7 @@ Pod::Spec.new do |s|
   s.source_files = "SimpleStore/Sources/**/*.{swift}"
   s.resources    = ['SimpleStore/Sources/**/*.{xib}']
   s.frameworks   = "Foundation"
+  s.swift_versions = "5.0"
 
   s.dependency 'MBProgressHUD'
   s.dependency 'SwiftyStoreKit'
